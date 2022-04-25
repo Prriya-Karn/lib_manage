@@ -1,0 +1,1605 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+
+	
+	background-color: orange;
+
+
+
+}
+
+.top{
+	text-align: center;
+	background-color: lightblue;
+	height: 25%;
+
+}
+
+.top h1 p{
+		position: absolute;
+	left: 40%;
+	
+
+}
+
+
+
+.top h1{
+	font-size: 40px;
+	position: absolute;
+	top: 1%;
+	left: 28%;
+
+	color: white;
+	letter-spacing: 2px;
+	 text-shadow: 2px 2px 4px #000000;
+	
+}
+
+.top p{
+	position: absolute;
+	top: 9%;
+	left: 30%;
+	font-size: 20px;
+		font-weight: bold;
+	color: white;
+	 text-shadow: 2px 2px 4px #000000;
+	letter-spacing: 2px;
+}
+
+/*navbar*/
+
+.navbar{
+	background-color: grey;
+	height: 9vh;
+	margin: 8px;
+
+
+
+}
+
+
+
+.navbar form{
+	text-align: center;
+	position: absolute;
+	left: 90%;
+	top: 31%;
+
+
+
+}
+
+.form1{
+	text-align: center;
+	position: absolute;
+	left: 90%;
+	top: 31%;
+
+
+
+}
+
+.navbar button{
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+	font-size: 15px;
+transition: all 0.6s;
+
+
+/*	font-weight: bold;*/
+}
+
+.navbar button a{
+	text-decoration: none;
+	color: black;
+	
+}
+
+.navbar button:hover{
+	background-color: royalblue;
+}
+
+
+.n{
+	/*margin-top: 20px;*/
+	position: absolute;
+	left: 10%;
+	top: 32%;
+
+
+
+
+}
+
+.n a{
+   
+	text-decoration: none;
+	color: black;
+	padding: 18px 20px;
+	font-size: 22px;
+	transition: 0.6s all;
+		margin: 40px;
+
+}
+
+.navbar select{
+	background-color: transparent;
+	border: none;
+	font-size: 22px;
+}
+
+.navbar select option: hover{
+background-color: black;
+}
+
+.navbar .n a:hover{
+	color: white;
+}
+
+
+/*slideimage*/
+.wrapper1{
+	width : 50%;
+	height:90vh ;
+	background-image: url('ait.webp');
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	position: absolute;
+	left: 5%;
+	 box-shadow: rgba(149,157,165,0.2)0px 8px 24px;
+	animation: changeImage 20s linear infinite;
+/*background-color: grey;*/
+	
+
+
+}
+
+@keyframes changeImage{
+	0%{ background-image: url('images (1).jpg'); }
+	20%{background-image: url('images (2).jpg');}
+	25%{background-image: url('images (3).jpg');}
+	30%{background-image: url('images.jpg');}
+	100%{background-image: url('IMG_2127.JPG');}
+}
+
+
+
+
+
+.slider{
+	width : 60vw;
+	height: 60vh;
+		position: absolute;
+	left: 20%;
+}
+
+
+
+.main{
+    margin-left: 60%;
+ /*   margin-right: 10%;*/
+ padding: 10px;
+
+}
+.name h3{
+text-align: center;
+}
+
+.card{
+     width: 30%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 5%;
+     overflow: hidden;
+    }
+    .card:hover img {
+	transform: scale(1.3,1.3);
+	cursor: pointer;
+}
+
+.card img{
+	transition:all 0.8s ;
+}
+
+.image img{
+  width: 100%;
+  height: 30%;
+ 
+  
+
+ 
+ }
+
+ .div1{
+ /*	background-color:	#C0C0C0;*/
+ 	margin: 8px;
+
+ }
+
+/*
+classmates teachers batches incomes
+*/
+
+ .card1{
+
+ 	display: inline-block;
+ 	text-align: center;
+ 	margin: 70px;
+ 		background-color: grey;
+ 		border-radius: 25px solid black;
+ 		 overflow: hidden;
+
+ }
+
+     .card1:hover img {
+	transform: scale(1.2,1.2);
+	cursor: pointer;
+}
+
+.card1 img{
+	transition:all 0.4s ;
+}
+ .card1 img{
+ 	width: 150px;
+
+
+ }
+
+ .head{
+ 	font-size: 10px;
+ 	
+ 	text-align: center;
+
+ 
+ }
+
+  .head p{
+  	font-size: 16px;
+  	color: white;
+  }
+
+ .logo{
+ 	position: absolute;
+ 	left: 10%;
+ 
+ 	border-radius: 25px solid black;
+/* 	margin: 100%;*/
+ 	
+ }
+ 
+
+ /*our team*/
+
+.main1{
+    margin-left: 40%;
+    margin-right: 10%;
+    margin: 8px;
+   /*background-color: rgb(0,0,255)*/
+
+
+}
+
+.ourteam h2{
+	text-align: center;
+	padding: 18px;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 40px;
+	position: absolute;
+	margin-top: 18px;
+	left: 43%;
+
+}
+
+
+.card2{
+     width: 18%;
+     margin-right: 20px;
+    margin-left: 20px;
+
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 7%;
+     overflow: hidden;
+    }
+    .card2:hover img {
+	transform: scale(1.2,1.2);
+	cursor: pointer;
+}
+
+.card2 img{
+	transition:all 0.4s ;
+}
+
+.image1 img{
+  width: 100%;
+  height: 40%;
+
+ 
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+ }
+
+
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+/*about us*/
+
+.aboutus{
+  margin: 8px;
+  
+   height: 20%;
+}
+
+.about1 h1{
+	font-size: 30px;
+}
+
+.about1
+{
+	position: absolute;
+	left: 15%;
+}
+
+.about2 {
+	position: absolute;
+	left: 70%;
+	
+	
+}
+.about2 img{
+	width: 90%;
+	height: 300px;
+}
+
+/*Contact Us*/
+
+
+.contact h2{
+	text-align: center;
+	padding: 18px;
+	color: black;
+	letter-spacing: 2px;
+	font-size: 40px;
+	position: absolute;
+	margin-top: 2px;
+
+	left: 43%;
+}
+.contact{
+background-image: url('contact.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+ margin: 8px;
+ height: 80%;
+}
+
+.form{
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	width: 50%;
+	left: 30%;
+/*		top: 250%;*/
+margin-top: 80px;
+height: 60%;
+}
+
+.text{
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+}
+.text input{
+	height: 40px;
+	width: 50%;
+	padding-left: 30px;
+	font-size: 16px;
+}
+.message{
+	text-align: center;
+}
+
+.message textarea{
+		height: 80px;
+	width: 50%;
+		padding-left: 40px;
+	font-size: 20px;
+
+}
+
+.button{
+	position: absolute;
+	left : 65%
+}
+
+.button button{
+	border-radius: 30px;
+	border: none;
+	height: 40px;
+	width: 100px;
+	/*font-size: 13px;*/
+	cursor: pointer;
+	transition: all 0.6s;
+}
+
+.button button:hover{
+	background-color: red;
+	color: white;
+}
+
+
+/*notes download*/
+
+.notes{
+
+margin: 100px;
+	background-color: grey;
+min-height: 800%;
+}
+
+.notes2{
+
+margin: 100px;
+	background-color: grey;
+min-height: 370%;
+}
+
+.notes1 {
+	
+	text-align: center;
+
+
+}
+
+.notes1 h1{
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+		position: absolute;
+		top: 60%;
+		left: 40%;
+}
+
+.content{
+	background-color: white;
+	margin: 0 auto;
+	padding: 20px;
+	min-height: 300px;
+	width: 900px;
+	position: absolute;
+	top: 70%;
+	left: 20%;
+
+}
+
+
+ul{
+	border-left: 1px solid #000;
+	margin-left: 20px;
+	padding-left: 20px;
+	font-size: 17px;
+	
+
+}
+
+/*footer*/
+
+footer{
+	/*position: fixed;*/
+	bottom: 0px;
+	margin: 8px;
+
+
+	background-color: rgba(0, 0, 0, 0.7);
+
+
+
+}
+
+.a a:hover{
+	color: red;
+	text-decoration: none;
+
+
+}
+
+.main-content{
+	font-size: 24px;
+	display: flex;
+height: 80%;
+}
+.main-content .box{
+	flex-basis: 50%;
+
+	padding: 10px 15px;
+
+}
+
+.left-box{
+	margin-left: 10%;
+	margin-bottom: 2%;
+}
+
+.p{
+	margin-top: 8%;
+/*	margin-top: 30%;*/
+
+	font-size: 20px;
+	color: white;
+
+
+}
+
+.p h4{
+	margin: 6px;
+	font-size: 20px;
+	letter-spacing: 1px;
+
+}
+
+.extra{
+	margin-left: 15%;
+	color: white;
+	font-size: 20px;
+}
+
+
+.social a{
+	margin: 12px;
+padding: 2%;
+	height: 40px;
+	background: #1a1a1a;
+	
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 5px;
+	color: white;
+	transition: all 0.8s;
+
+
+}
+
+.social a:hover{
+	background-color: red;
+
+}
+
+.social{
+margin-left: 5%;
+}
+
+.center-box{
+	margin-top: 3%;
+/*	margin-top: 8%;*/
+	border-left: 1px solid white;
+	margin-bottom: 3%;
+	margin-left: 10%;
+
+}
+
+.center-box h2{
+	font-size: 24px;
+	color: white;
+	margin-left: 20%;
+	margin-top: 1%;
+	border-bottom: 2px solid white;
+border-bottom: 2px solid white;
+
+	width: 65%;
+	transition: all 0.6s;
+
+}
+
+.center-box h2:hover{
+	border-bottom: 5px solid red;
+width: 85%;
+color: red;
+}
+
+.content-1 li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+
+}
+
+.content-1 li a:hover{
+	color: red;
+}
+
+
+.content-1 ul li{
+	margin: 50px;
+	
+
+
+
+}
+
+.content-1 ul{
+	margin-left: 2%;
+
+}
+
+
+.right-box{
+	margin-top: 3%;
+	/*margin-top: 8%;*/
+	border-left: 1px solid white;
+	margin-bottom: 3%;
+	margin-left: 5%;
+
+}
+
+.right-box h2{
+	font-size: 24px;
+	color: white;
+	margin-left: 20%;
+	margin-top: 1%;
+	border-bottom: 2px solid white;
+
+	width: 40%;
+	transition: all 0.6s;
+}
+
+
+.right-box h2:hover{
+border-bottom: 5px solid red;
+width: 60%;
+color: red;
+}
+
+.content-2 li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+
+}
+
+.content-2 li a:hover{
+	color: red;
+}
+
+
+.content-2 ul li{
+margin: 50px;
+	
+
+
+
+}
+
+.content-2 ul{
+	margin-left: 1%;
+
+}
+
+
+/*Login and register home */
+
+.box-1{
+	background-image: url('Shakarpur7.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/*left: 20%;*/
+}
+
+
+.box{
+	width: 450px;
+	height: 80%;
+	background-color: black;
+	position: absolute;
+	overflow: hidden;
+	top: 9%;
+	border-radius: 18px;
+	
+
+	margin-left: 38%;
+	margin-right: 20%;
+	/*background-image: url('contact.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;*/
+	background-color: rgba(0, 0, 0, 0.7);
+	
+
+
+}
+
+.signup{
+	position: absolute;
+	bottom :0;
+	left: 8%;
+
+	width: 80%;
+	height: 400px;
+	padding: 0 20px;
+	transition: 0.5s all;
+
+}
+
+
+.login{
+	position: absolute;
+	bottom :0;
+	left: 100%;
+
+	width: 80%;
+	height: 400px;
+	padding: 0 20px;
+	transition: 0.5s all;
+
+}
+
+.input-group{
+margin-top: -20%;
+}
+
+.signup button{
+		width: 60%;
+	padding: 10px 15px;
+	border-radius: 100px;
+	border: 1px solid #c6c6c6;
+	margin-top: 30px;
+	position: absolute;
+	left: 20%;
+	font-size: 20px;
+	transition: 0.6s all;
+}
+
+.signup button:hover{
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+
+.login button{
+		width: 60%;
+	padding: 10px 15px;
+	border-radius: 100px;
+	border: 1px solid #c6c6c6;
+	margin-top: 30px;
+	position: absolute;
+	left: 20%;
+	font-size: 20px;
+	transition: 0.6s all;
+}
+
+.login button:hover{
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+.user-1 img{
+	width: 95px;
+	margin-left: 38%;
+	margin-top: -10%;
+	margin-bottom: 50px;
+}
+
+.input-group .inp{
+	width: 100%;
+	padding: 10px 15px;
+	border-radius: 100px;
+	border: 1px solid #c6c6c6;
+	margin-top: 20px;
+}
+
+.toggle-btn{
+	-webkit-appearance: none;
+	width: 200px;
+	height: 40px;
+	border: 1px solid #c6c6c6;
+	position: absolute;
+	top: 35px;
+	left: 30%;
+	border-radius: 20px;
+
+	font-size: 20px;
+	text-align: center;
+	padding-top:5px ;
+	cursor: pointer;
+	
+
+}
+
+.toggle-btn:before{
+	content: 'Register';
+
+	color: green;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: orange;
+	place-item :center;
+	transition :0.5s all;
+	border-radius: 25px;
+
+}
+
+.toggle-btn:checked:before{
+	content: 'Login';
+	left: 50%;
+}
+
+.toggle-btn:checked + .signup{
+	left: -101%;
+}
+.toggle-btn:checked + .signup + .login{
+	left: 8%;
+}
+
+
+/*attendance management*/
+
+.main-attendance{
+	margin-left: 20%;
+	margin-right: 20%;
+	/*background-color: grey;*/
+	height: 80%;
+	border: 2px solid grey;
+
+}
+
+.h-attendace{
+	background-color: green;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	width: 58%;
+	margin-left: 13px;
+
+}
+
+.h-attendace h1{
+	font-size: 30px;
+	color: black;
+}
+
+.table-attendance table{
+	
+color: black;
+width: 100%;
+/*margin-left: 13px;*/
+}
+.table-attendance table tr td{
+	text-align: center;
+	color: red;
+	padding: 2px;
+}
+.table-attendance table, th, td {
+  border:1px solid black;
+}
+
+.attendance-button{
+	position: absolute;
+	left: 43%;
+}
+
+.attendance-button button{
+	padding: 7px;
+	font-size: 20px;
+	border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.6s all;
+	background-color: yellow;
+	
+
+}
+
+.attendance-button button:hover{
+	color: black;
+	background-color: green;
+}
+
+.a-student a{
+	margin: 20%;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 7px;
+	font-size: 18px;
+		border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.6s all;
+		background-color: yellow;
+	
+	
+}
+
+.a-student a:hover{
+color: black;
+	background-color: green;
+}
+
+.a-student-1 a{
+	margin: 20%;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 7px;
+	font-size: 18px;
+		border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.6s all;
+		background-color: yellow;
+	
+	
+}
+
+.a-student-1 a:hover{
+color: black;
+	background-color: green;
+}
+
+
+.add-student{
+	margin-left: 8px;
+}
+
+.add-student h2{
+	color: blue;
+	font-size: 30px;
+
+}
+
+.input-attendance{
+	/*background-color: green;*/
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.input-attendance input{
+	width: 100%;
+	padding: 5px;
+}
+
+.input-attendance button{
+	cursor: pointer;
+
+	transition: 0.6s all;
+}
+
+/*.input-attendance button:hover{
+	background-color: yellow;
+	color: white;
+	border: default;
+}
+*/
+.attendance-butt{
+	position: absolute;
+	left: 74%;
+}
+
+.attendance-butt button{
+	padding: 7px;
+	font-size: 18px;
+	border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.6s all;
+	background-color: yellow;
+	
+
+}
+
+.attendance-butt button:hover{
+	color: black;
+	background-color: green;
+}
+
+.table-attendance-1 table{
+	
+color: black;
+width: 100%;
+/*margin-left: 13px;*/
+}
+.table-attendance-1 table tr td{
+	text-align: center;
+	color: red;
+	padding: 9px;
+}
+
+.table-attendance-1 td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+}
+
+
+
+/*attendance-login*/
+
+.box-1-2{
+	background-image: url('contact.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 70%;
+	height: 100%;
+	position: absolute;
+	left: 20%;
+}
+
+.a-box{
+	width: 450px;
+	height: 80%;
+	background-color: black;
+	position: absolute;
+	overflow: hidden;
+	top: 58%;
+	border-radius: 18px;
+	left: 8%;
+	
+
+	margin-left: 30%;
+	margin-right: 20%;
+	/*background-image: url('contact.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;*/
+	background: #000000;
+	opacity: 0.7;
+	
+
+
+}
+
+.user img{
+	width: 95px;
+	margin-left: 36%;
+	margin-top: -10%;
+	margin-bottom: 50px;
+
+}
+
+.signup-1{
+	position: absolute;
+	bottom :0;
+	left: 8%;
+
+	width: 80%;
+	height: 400px;
+	padding: 0 20px;
+	transition: 0.5s all;
+
+}
+
+
+.login-1{
+	position: absolute;
+	bottom :0;
+	left: 100%;
+
+	width: 80%;
+	height: 400px;
+	padding: 0 20px;
+	transition: 0.5s all;
+
+}
+
+.input-group{
+margin-top: -15%;
+}
+
+.signup-1 button{
+		width: 60%;
+	padding: 10px 15px;
+	border-radius: 100px;
+	border: 1px solid #c6c6c6;
+	margin-top: 30px;
+	position: absolute;
+	left: 20%;
+	font-size: 20px;
+	transition: 0.6s all;
+}
+
+.signup-1 button:hover{
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+
+.login-1 button{
+		width: 60%;
+	padding: 10px 15px;
+	border-radius: 100px;
+	border: 1px solid #c6c6c6;
+	margin-top: 30px;
+	position: absolute;
+	left: 20%;
+	font-size: 20px;
+	transition: 0.6s all;
+}
+
+.login-1 button:hover{
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+.input-group .inp{
+	width: 100%;
+	padding: 10px 15px;
+	border-radius: 100px;
+	border: 1px solid #c6c6c6;
+	margin-top: 25px;
+}
+
+
+
+.toggle-btn{
+	-webkit-appearance: none;
+	width: 200px;
+	height: 40px;
+	border: 1px solid #c6c6c6;
+	position: absolute;
+	top: 35px;
+	left: 30%;
+	border-radius: 20px;
+
+	font-size: 20px;
+	text-align: center;
+	padding-top:5px ;
+	cursor: pointer;
+	
+
+}
+
+.toggle-btn:before{
+	content: 'Register';
+
+	color: green;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: orange;
+	place-item :center;
+	transition :0.5s all;
+	border-radius: 25px;
+
+}
+
+.toggle-btn:checked:before{
+	content: 'Login';
+	left: 50%;
+}
+
+.toggle-btn:checked + .signup-1{
+	left: -101%;
+}
+.toggle-btn:checked + .signup-1 + .login-1{
+	left: 8%;
+}
+
+
+
+.main-attendance-1{
+	margin-left: 20%;
+	margin-right: 20%;
+	/*background-color: grey;*/
+	height: 100%;
+	border: 2px solid black;
+
+}
+
+.h-attendace-1{
+	background-color: green;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	width: 58%;
+	margin-left: 13px;
+
+}
+
+.h-attendace-1 h1{
+	font-size: 30px;
+	color: black;
+}
+
+
+/*marking system*/
+
+.main-attendance-marking{
+	margin-left: 20%;
+	margin-right: 20%;
+	/*background-color: grey;*/
+	height: 95%;
+	border: 2px solid grey;
+
+}
+
+.b-student-m {
+	margin-left: 55px;
+	
+}
+
+.b-student-m button{
+	  width: 16%; 
+	  height:30px;
+	border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	background-color: green;
+	transition: 0.6s all;
+	font-size: 15px;
+}
+
+.b-student-m button:hover{
+	background-color: yellow;
+	color: white;
+
+}
+
+.attendance-button-m{
+/*	position: absolute;
+	left: 30%;*/
+	margin-top: -50px;
+	margin-left: 90px;
+}
+
+.attendance-button-m button{
+	padding: 7px;
+	font-size: 20px;
+	border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.6s all;
+	background-color: yellow;
+	margin: 100px;
+	
+}
+
+
+.attendance-button-m button:hover{
+	color: black;
+	background-color: green;
+}
+
+
+.a-student-m a{
+	margin-left: 2%;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 7px;
+	font-size: 18px;
+		border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.6s all;
+		background-color: yellow;
+	
+	
+}
+
+.a-student-m a:hover{
+color: black;
+	background-color: green;
+}
+
+.h-attendace-m{
+	background-color: green;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	width: 58%;
+	margin-left: 13px;
+
+}
+
+.h-attendace-m h1{
+	font-size: 30px;
+	color: black;
+}
+
+.table-attendance-m table{
+	
+color: black;
+width: 100%;
+/*margin-left: 13px;*/
+}
+.table-attendance-m table tr td{
+	text-align: center;
+	color: red;
+	padding: 2px;
+}
+.table-attendance-m table, th, td {
+  border:1px solid black;
+}
+
+/*newstudent*/
+
+.h-attendace-m{
+	background-color: green;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	width: 58%;
+	margin-left: 13px;
+
+}
+
+.h-attendace-m h1{
+	font-size: 30px;
+	color: black;
+}
+
+.add-student-m{
+	margin-left: 8px;
+}
+
+.add-student-m h2{
+	color: blue;
+	font-size: 30px;
+
+}
+
+
+.attendance-butt-m{
+	position: absolute;
+	left: 74%;
+	bottom: -20%;
+}
+
+.attendance-butt-m button{
+	padding: 7px;
+	font-size: 18px;
+	border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.6s all;
+	background-color: yellow;
+
+	
+
+}
+
+
+.attendance-butt-m button:hover{
+	color: black;
+	background-color: green;
+}
+
+
+
+.input-attendance-m{
+	/*background-color: green;*/
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.input-attendance-m input{
+	width: 100%;
+	padding: 5px;
+}
+
+.input-attendance-m button{
+	cursor: pointer;
+
+	transition: 0.6s all;
+}
+
+/*add record*/
+
+
+.table-attendance-r table{
+	
+color: black;
+width: 100%;
+/*margin-left: 13px;*/
+}
+
+.table-attendance-r table i{
+	color: black;
+	transition: 0.8s all;
+}
+
+.table-attendance-r table i:hover{
+	color: red;
+}
+
+.table-attendance-r table tr td{
+	text-align: center;
+	color: red;
+	padding: 2px;
+}
+
+.table-attendance-r table, th, td {
+  border:1px solid black;
+}
+
+
+.attendance-button-r{
+	position: absolute;
+	left: 43%;
+}
+
+.attendance-button-r button{
+	padding: 7px;
+	font-size: 20px;
+	border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.6s all;
+	background-color: yellow;
+	
+
+}
+
+.attendance-button-r button:hover{
+	color: black;
+	background-color: green;
+}
+
+/*record.php*/
+
+.main-attendance-a{
+	margin-left: 20%;
+	margin-right: 20%;
+	/*background-color: grey;*/
+	height: 95%;
+	border: 2px solid grey;
+
+}
+
+.add-student-a{
+	margin-left: 8px;
+}
+
+.add-student-a h2{
+	color: blue;
+	font-size: 30px;
+
+}
+
+.input-attendance-a{
+	/*background-color: green;*/
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.input-attendance-a input{
+	width: 100%;
+	padding: 5px;
+}
+
+.input-attendance-a button{
+	cursor: pointer;
+
+	transition: 0.6s all;
+}
+
+.attendance-butt-a{
+	position: absolute;
+	left: 74%;
+	bottom: -35%;
+}
+
+.attendance-butt-a button{
+	padding: 7px;
+	font-size: 18px;
+	border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.6s all;
+	background-color: yellow;
+	
+
+}
+
+.attendance-butt-a button:hover{
+	color: black;
+	background-color: green;
+}
+
+
+
+/*Famous Courses*/
+
+.main5{
+    margin-left: 40%;
+    margin-right: 10%;
+    margin: 8px;
+   /*background-color: rgb(0,0,255)*/
+
+
+}
+
+.ourteam h2{
+	text-align: center;
+	padding: 18px;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 40px;
+	position: absolute;
+	margin-top: 18px;
+	left: 43%;
+
+}
+
+
+.card5{
+     width: 19%;
+     margin-right: 20px;
+    margin-left: 20px;
+
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 7%;
+     overflow: hidden;
+    }
+    .card5:hover img {
+	transform: scale(1.2,1.2);
+	cursor: pointer;
+}
+
+.card5 img{
+	transition:all 0.4s ;
+}
+
+.image5 img{
+  width: 100%;
+
+
+ 
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+ }
+
+
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }

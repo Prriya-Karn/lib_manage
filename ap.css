@@ -1,0 +1,347 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	background-color: grey;
+
+
+}
+
+.nav{
+	width: 100%;
+	height:  49px;
+	background-color: green;
+	text-align: center;
+	padding: 15px 20px;
+
+
+}
+
+.nav a{
+   
+	text-decoration: none;
+	color: white;
+	padding: 15px 20px;
+	font-size: 19px;
+	transition: 0.6s all;
+	margin-top: 8px;
+	
+
+}
+
+.nav a:hover{
+	background-color: orange;
+}
+.nav .search{
+	float: right;
+	padding: 10px 10px;
+
+
+
+}
+.nav input[type=text]{
+   padding:6px;
+ 
+   border: none;
+   font-size: 17px;
+
+ 
+}
+
+.nav .search button {
+	float: right;
+	padding: 6px;
+
+	font-size: 17px;
+	margin-right: 16px;
+	cursor: pointer;
+	background-color: #ddd;
+	border: none;
+	transition: 0.6s all;
+}
+
+.nav .search button:hover{
+background-color: orange;
+color: #fff;
+}
+
+.list{
+	width: 100%;
+	height:  49px;
+	font-size: 20px;
+	text-align: center;
+	padding: 12px 24px;
+
+}
+.list a{
+	text-decoration: none;
+	padding: 10px 15px;
+	background-color: orange;
+	color: white;
+	transition: 0.6s all;
+	margin: 5px;
+	font-weight: bold;
+}
+
+.list a:hover{
+	background-color: black;
+}
+
+.latest{
+	width: 90%;
+	height:  49px;
+	text-align:justify;
+	background-color: orange;
+	margin-left: 100px;
+}
+
+.latest h3{
+	margin-left: 3%;
+	padding: 1%;
+	color: white;
+	font-weight: bold;
+
+}
+
+.icons{
+	
+	position: fixed;
+	top: 30%;
+	left: 0%;
+	width: 200px;
+	display: flex;
+flex-direction: column;
+
+}
+.icons a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	font-size: 22px;
+	margin: 2px;
+	text-align: right;
+	border-radius: 0px 50px 50px 0px;
+	transform: translate(-130px, 0px);
+	transition: all 1s;
+
+	
+
+}
+
+.icons a:hover{
+	transform: translate(0px, 0px);
+}
+
+.facebook{
+	background-color: #2c80D3;
+	color: white;
+}
+.youtube{
+	background-color: #fa0910;
+	color: white;
+}
+.twitter{
+	background-color: #53c5ff;
+	color: white;
+}
+.whatsapp{
+  background-color: #25D366;
+  color: white;
+}
+
+
+
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+     overflow: hidden;
+    }
+    .card:hover img {
+	transform: scale(1.2,1.2);
+	cursor: pointer;
+}
+
+.card img{
+	transition:all 0.4s ;
+}
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+/*footer*/
+
+
+.inner-footer{
+	margin: 0;
+	padding: 0;
+	background-color: green ;
+
+}
+
+	
+
+.quick-links{
+	display: flex;
+margin: auto;
+width: 560px;
+height: 70px;
+}
+.quick-links ul{
+	display: flex;
+}
+
+.quick-items{
+
+		list-style: none;
+	
+
+	
+}
+.quick-items a{
+	text-decoration: none;
+	padding: 0px 15px;
+	font-size: 18px;
+	color: white;
+	transition: all 0.6s;
+	text-align: center;
+
+}
+.quick-items a:hover{
+	color: orange;
+}
+
+.outer-footer{
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	background-color: black;
+
+
+}
+
+.wrapper{
+	width : 100vw;
+	height:100vh ;
+	
+
+}
+
+.song{
+	width : 60vw;
+	height: 60vh;
+		position: absolute;
+	left: 20%;
+	box-shadow: 5px solid grey;
+}
+
+/*.about{
+	background-color: grey;
+	width : 100vw;
+	height:100vh ;
+
+
+}*/
+.p{
+	position: absolute;
+	top: 120%;
+	left: 20%;
+
+}
+
+/*screenshot*/
+
+.main1{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 12%;
+   
+}
+
+
+/*screenshot image*/
+
+
+.card1{
+	width: 20%;
+    display: flex;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+     overflow: hidden;
+
+    }
+    .card1:hover img {
+	transform: scale(1.2,1.2);
+	cursor: pointer;
+}
+
+.card1 img{
+	transition:all 0.4s ;
+}
+
+.download{
+	position: absolute;
+	left: 40% ;
+
+}
+.download a{
+	text-decoration: none;
+	
+	width: 20%;
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 50px 50px 50px 50px;
+	background-color: green;
+	color: white;
+	font-size: 18px;
+	transition: all 0.6s;
+
+}
+
+.download a:hover{
+	background-color: orange;
+	cursor: pointer;
+}
+
+.rm{
+	background-color: grey;
+	width: 100%;
+}
